@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F43C5006C70DECF75CEC21E /* libPods-PostWithCookieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF2C58AD16C1342572F8451 /* libPods-PostWithCookieUITests.a */; };
+		9A0B3FDA1CEBF6300060C951 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B3FD91CEBF6300060C951 /* libsqlite3.tbd */; };
+		9A0B3FDC1CEBF6390060C951 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B3FDB1CEBF6390060C951 /* libsqlite3.0.tbd */; };
+		9AA6DA4F1CEDD81100E36FC2 /* JSONData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6DA4E1CEDD81100E36FC2 /* JSONData.txt */; };
+		9AD4AB971CE920FF007E9C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4AB961CE920FF007E9C96 /* AppDelegate.m */; };
+		9AD4AB9A1CE920FF007E9C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4AB991CE920FF007E9C96 /* main.m */; };
+		9AD4AB9D1CE920FF007E9C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4AB9C1CE920FF007E9C96 /* ViewController.m */; };
+		9AD4AB9F1CE920FF007E9C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4AB9E1CE920FF007E9C96 /* Assets.xcassets */; };
+		9AD4ABA21CE920FF007E9C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4ABA01CE920FF007E9C96 /* Main.storyboard */; };
+		9AD4ABAD1CE920FF007E9C96 /* PostWithCookieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4ABAC1CE920FF007E9C96 /* PostWithCookieTests.m */; };
+		9AD4ABB81CE920FF007E9C96 /* PostWithCookieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4ABB71CE920FF007E9C96 /* PostWithCookieUITests.m */; };
+		F2237B827EA8522CEA4C9B43 /* libPods-PostWithCookie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE96305190139DE43825E465 /* libPods-PostWithCookie.a */; };
+		F59BE2090FFADF8EE48DB2AD /* libPods-PostWithCookieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B89959A728A4982B9D5775DD /* libPods-PostWithCookieTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD4ABA91CE920FF007E9C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD4AB8A1CE920FF007E9C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD4AB911CE920FF007E9C96;
+			remoteInfo = PostWithCookie;
+		};
+		9AD4ABB41CE920FF007E9C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD4AB8A1CE920FF007E9C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD4AB911CE920FF007E9C96;
+			remoteInfo = PostWithCookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E1D3937774981EA90272FB /* Pods-PostWithCookieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookieUITests/Pods-PostWithCookieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04F4A0C31516E9D8DA2EF70E /* Pods-PostWithCookieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookieTests/Pods-PostWithCookieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF2C58AD16C1342572F8451 /* libPods-PostWithCookieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostWithCookieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECF2EC6ADE69C72877EC665 /* Pods-PostWithCookie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookie/Pods-PostWithCookie.debug.xcconfig"; sourceTree = "<group>"; };
+		9A0B3FD91CEBF6300060C951 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9A0B3FDB1CEBF6390060C951 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9AA6DA4E1CEDD81100E36FC2 /* JSONData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSONData.txt; sourceTree = "<group>"; };
+		9AD4AB921CE920FF007E9C96 /* PostWithCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostWithCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4AB951CE920FF007E9C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AD4AB961CE920FF007E9C96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AD4AB991CE920FF007E9C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AD4AB9B1CE920FF007E9C96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AD4AB9C1CE920FF007E9C96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AD4AB9E1CE920FF007E9C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD4ABA11CE920FF007E9C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD4ABA31CE920FF007E9C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD4ABA81CE920FF007E9C96 /* PostWithCookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostWithCookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4ABAC1CE920FF007E9C96 /* PostWithCookieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostWithCookieTests.m; sourceTree = "<group>"; };
+		9AD4ABAE1CE920FF007E9C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD4ABB31CE920FF007E9C96 /* PostWithCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostWithCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD4ABB71CE920FF007E9C96 /* PostWithCookieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostWithCookieUITests.m; sourceTree = "<group>"; };
+		9AD4ABB91CE920FF007E9C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE2901C24AE62C88F028392 /* Pods-PostWithCookieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookieTests/Pods-PostWithCookieTests.release.xcconfig"; sourceTree = "<group>"; };
+		B89959A728A4982B9D5775DD /* libPods-PostWithCookieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostWithCookieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB270DBE873144521AD19E53 /* Pods-PostWithCookie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookie.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookie/Pods-PostWithCookie.release.xcconfig"; sourceTree = "<group>"; };
+		DE96305190139DE43825E465 /* libPods-PostWithCookie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostWithCookie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06566F29A5D6480A72C2C1D /* Pods-PostWithCookieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostWithCookieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostWithCookieUITests/Pods-PostWithCookieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD4AB8F1CE920FF007E9C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B3FDC1CEBF6390060C951 /* libsqlite3.0.tbd in Frameworks */,
+				9A0B3FDA1CEBF6300060C951 /* libsqlite3.tbd in Frameworks */,
+				F2237B827EA8522CEA4C9B43 /* libPods-PostWithCookie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABA51CE920FF007E9C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59BE2090FFADF8EE48DB2AD /* libPods-PostWithCookieTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABB01CE920FF007E9C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F43C5006C70DECF75CEC21E /* libPods-PostWithCookieUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD4AB891CE920FF007E9C96 = {
+			isa = PBXGroup;
+			children = (
+				9AD4AB941CE920FF007E9C96 /* PostWithCookie */,
+				9AD4ABAB1CE920FF007E9C96 /* PostWithCookieTests */,
+				9AD4ABB61CE920FF007E9C96 /* PostWithCookieUITests */,
+				9AD4AB931CE920FF007E9C96 /* Products */,
+				EACC422464BD51E49BB4D83E /* Pods */,
+				B4E552211402668AA8C20386 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD4AB931CE920FF007E9C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4AB921CE920FF007E9C96 /* PostWithCookie.app */,
+				9AD4ABA81CE920FF007E9C96 /* PostWithCookieTests.xctest */,
+				9AD4ABB31CE920FF007E9C96 /* PostWithCookieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD4AB941CE920FF007E9C96 /* PostWithCookie */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4AB951CE920FF007E9C96 /* AppDelegate.h */,
+				9AD4AB961CE920FF007E9C96 /* AppDelegate.m */,
+				9AD4AB9B1CE920FF007E9C96 /* ViewController.h */,
+				9AD4AB9C1CE920FF007E9C96 /* ViewController.m */,
+				9AD4AB9E1CE920FF007E9C96 /* Assets.xcassets */,
+				9AD4ABA01CE920FF007E9C96 /* Main.storyboard */,
+				9AD4ABA31CE920FF007E9C96 /* Info.plist */,
+				9AA6DA4E1CEDD81100E36FC2 /* JSONData.txt */,
+				9AD4AB981CE920FF007E9C96 /* Supporting Files */,
+			);
+			path = PostWithCookie;
+			sourceTree = "<group>";
+		};
+		9AD4AB981CE920FF007E9C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4AB991CE920FF007E9C96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AD4ABAB1CE920FF007E9C96 /* PostWithCookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4ABAC1CE920FF007E9C96 /* PostWithCookieTests.m */,
+				9AD4ABAE1CE920FF007E9C96 /* Info.plist */,
+			);
+			path = PostWithCookieTests;
+			sourceTree = "<group>";
+		};
+		9AD4ABB61CE920FF007E9C96 /* PostWithCookieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4ABB71CE920FF007E9C96 /* PostWithCookieUITests.m */,
+				9AD4ABB91CE920FF007E9C96 /* Info.plist */,
+			);
+			path = PostWithCookieUITests;
+			sourceTree = "<group>";
+		};
+		B4E552211402668AA8C20386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B3FDB1CEBF6390060C951 /* libsqlite3.0.tbd */,
+				9A0B3FD91CEBF6300060C951 /* libsqlite3.tbd */,
+				DE96305190139DE43825E465 /* libPods-PostWithCookie.a */,
+				B89959A728A4982B9D5775DD /* libPods-PostWithCookieTests.a */,
+				2DF2C58AD16C1342572F8451 /* libPods-PostWithCookieUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACC422464BD51E49BB4D83E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECF2EC6ADE69C72877EC665 /* Pods-PostWithCookie.debug.xcconfig */,
+				DB270DBE873144521AD19E53 /* Pods-PostWithCookie.release.xcconfig */,
+				04F4A0C31516E9D8DA2EF70E /* Pods-PostWithCookieTests.debug.xcconfig */,
+				9CE2901C24AE62C88F028392 /* Pods-PostWithCookieTests.release.xcconfig */,
+				F06566F29A5D6480A72C2C1D /* Pods-PostWithCookieUITests.debug.xcconfig */,
+				02E1D3937774981EA90272FB /* Pods-PostWithCookieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD4AB911CE920FF007E9C96 /* PostWithCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4ABBC1CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookie" */;
+			buildPhases = (
+				C9069091E957B2C9E90C8276 /* 📦 Check Pods Manifest.lock */,
+				9AD4AB8E1CE920FF007E9C96 /* Sources */,
+				9AD4AB8F1CE920FF007E9C96 /* Frameworks */,
+				9AD4AB901CE920FF007E9C96 /* Resources */,
+				E8054614AE25C8433EBAA1CA /* 📦 Embed Pods Frameworks */,
+				F6C2FF555AF781AE2E1ACDBC /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostWithCookie;
+			productName = PostWithCookie;
+			productReference = 9AD4AB921CE920FF007E9C96 /* PostWithCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD4ABA71CE920FF007E9C96 /* PostWithCookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4ABBF1CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookieTests" */;
+			buildPhases = (
+				0678899A12E15E4678E075A0 /* 📦 Check Pods Manifest.lock */,
+				9AD4ABA41CE920FF007E9C96 /* Sources */,
+				9AD4ABA51CE920FF007E9C96 /* Frameworks */,
+				9AD4ABA61CE920FF007E9C96 /* Resources */,
+				7F780980B57015336FD08920 /* 📦 Embed Pods Frameworks */,
+				B6E3EF260CD6DCA08B2EBF88 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD4ABAA1CE920FF007E9C96 /* PBXTargetDependency */,
+			);
+			name = PostWithCookieTests;
+			productName = PostWithCookieTests;
+			productReference = 9AD4ABA81CE920FF007E9C96 /* PostWithCookieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD4ABB21CE920FF007E9C96 /* PostWithCookieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4ABC21CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookieUITests" */;
+			buildPhases = (
+				692B122558A64D538F4C799C /* 📦 Check Pods Manifest.lock */,
+				9AD4ABAF1CE920FF007E9C96 /* Sources */,
+				9AD4ABB01CE920FF007E9C96 /* Frameworks */,
+				9AD4ABB11CE920FF007E9C96 /* Resources */,
+				3BAD5F04DC85B36EF9A64002 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD4ABB51CE920FF007E9C96 /* PBXTargetDependency */,
+			);
+			name = PostWithCookieUITests;
+			productName = PostWithCookieUITests;
+			productReference = 9AD4ABB31CE920FF007E9C96 /* PostWithCookieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD4AB8A1CE920FF007E9C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nikolay Berlioz";
+				TargetAttributes = {
+					9AD4AB911CE920FF007E9C96 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9AD4ABA71CE920FF007E9C96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9AD4AB911CE920FF007E9C96;
+					};
+					9AD4ABB21CE920FF007E9C96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9AD4AB911CE920FF007E9C96;
+					};
+				};
+			};
+			buildConfigurationList = 9AD4AB8D1CE920FF007E9C96 /* Build configuration list for PBXProject "PostWithCookie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD4AB891CE920FF007E9C96;
+			productRefGroup = 9AD4AB931CE920FF007E9C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD4AB911CE920FF007E9C96 /* PostWithCookie */,
+				9AD4ABA71CE920FF007E9C96 /* PostWithCookieTests */,
+				9AD4ABB21CE920FF007E9C96 /* PostWithCookieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD4AB901CE920FF007E9C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA6DA4F1CEDD81100E36FC2 /* JSONData.txt in Resources */,
+				9AD4AB9F1CE920FF007E9C96 /* Assets.xcassets in Resources */,
+				9AD4ABA21CE920FF007E9C96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABA61CE920FF007E9C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABB11CE920FF007E9C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0678899A12E15E4678E075A0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BAD5F04DC85B36EF9A64002 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostWithCookieUITests/Pods-PostWithCookieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692B122558A64D538F4C799C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F780980B57015336FD08920 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostWithCookieTests/Pods-PostWithCookieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E3EF260CD6DCA08B2EBF88 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostWithCookieTests/Pods-PostWithCookieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9069091E957B2C9E90C8276 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8054614AE25C8433EBAA1CA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostWithCookie/Pods-PostWithCookie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C2FF555AF781AE2E1ACDBC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostWithCookie/Pods-PostWithCookie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD4AB8E1CE920FF007E9C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4AB9D1CE920FF007E9C96 /* ViewController.m in Sources */,
+				9AD4AB9A1CE920FF007E9C96 /* main.m in Sources */,
+				9AD4AB971CE920FF007E9C96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABA41CE920FF007E9C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4ABAD1CE920FF007E9C96 /* PostWithCookieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD4ABAF1CE920FF007E9C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4ABB81CE920FF007E9C96 /* PostWithCookieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD4ABAA1CE920FF007E9C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD4AB911CE920FF007E9C96 /* PostWithCookie */;
+			targetProxy = 9AD4ABA91CE920FF007E9C96 /* PBXContainerItemProxy */;
+		};
+		9AD4ABB51CE920FF007E9C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD4AB911CE920FF007E9C96 /* PostWithCookie */;
+			targetProxy = 9AD4ABB41CE920FF007E9C96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD4ABA01CE920FF007E9C96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD4ABA11CE920FF007E9C96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD4ABBA1CE920FF007E9C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9AD4ABBB1CE920FF007E9C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9AD4ABBD1CE920FF007E9C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECF2EC6ADE69C72877EC665 /* Pods-PostWithCookie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PostWithCookie/EWCookieFetcher",
+				);
+				INFOPLIST_FILE = PostWithCookie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AD4ABBE1CE920FF007E9C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB270DBE873144521AD19E53 /* Pods-PostWithCookie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PostWithCookie/EWCookieFetcher",
+				);
+				INFOPLIST_FILE = PostWithCookie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AD4ABC01CE920FF007E9C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F4A0C31516E9D8DA2EF70E /* Pods-PostWithCookieTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostWithCookieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostWithCookie.app/Contents/MacOS/PostWithCookie";
+			};
+			name = Debug;
+		};
+		9AD4ABC11CE920FF007E9C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE2901C24AE62C88F028392 /* Pods-PostWithCookieTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostWithCookieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostWithCookie.app/Contents/MacOS/PostWithCookie";
+			};
+			name = Release;
+		};
+		9AD4ABC31CE920FF007E9C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06566F29A5D6480A72C2C1D /* Pods-PostWithCookieUITests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostWithCookieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PostWithCookie;
+			};
+			name = Debug;
+		};
+		9AD4ABC41CE920FF007E9C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E1D3937774981EA90272FB /* Pods-PostWithCookieUITests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostWithCookieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.PostWithCookieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PostWithCookie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD4AB8D1CE920FF007E9C96 /* Build configuration list for PBXProject "PostWithCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4ABBA1CE920FF007E9C96 /* Debug */,
+				9AD4ABBB1CE920FF007E9C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4ABBC1CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4ABBD1CE920FF007E9C96 /* Debug */,
+				9AD4ABBE1CE920FF007E9C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4ABBF1CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4ABC01CE920FF007E9C96 /* Debug */,
+				9AD4ABC11CE920FF007E9C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4ABC21CE920FF007E9C96 /* Build configuration list for PBXNativeTarget "PostWithCookieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4ABC31CE920FF007E9C96 /* Debug */,
+				9AD4ABC41CE920FF007E9C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD4AB8A1CE920FF007E9C96 /* Project object */;
+}
